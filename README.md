@@ -7,3 +7,5 @@ Here is demo 3rd party app made for Xiaomi Watch Color 2 / Xiaomi Watch S1 / Xia
 Project made under DevEco Studio by Huawei Inc
 
 https://developer.harmonyos.com/en/develop/deveco-studio/
+
+<img src="bosspuzzle.png"/>
