@@ -48,8 +48,11 @@ export default {
 
     turnTimeModel(t) {
 
+        if (t == 'undefined')
+            t = 0;
+
         let n = t % 60;
-        let i = Math.floor(t / 60);
+        let i = t == 0 ? 0 : Math.floor(t / 60);
         if (i <= 9) i = "0" + i;
         if (n <= 9) n = "0" + n;
         var a = i + ":" + n;
