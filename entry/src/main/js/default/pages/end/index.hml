@@ -1,0 +1,8 @@
+<div class="container" on:swipe="touchMove">
+	<div class="endPage">
+		<image src="/common/lang/{{language}}/gameover.png" class="gameoverImg"></image>
+		<text class="endTime">{{endTime}}</text>
+		<text class="bestTime">{{bestTime}}</text>
+		<image src="/common/replay.png" class="replay" on:click="replayBtn"></image>
+	</div>
+</div>

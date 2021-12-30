@@ -1,0 +1,64 @@
+<div class="container" on:swipe="touchMove">
+	<image src="/common/table.png" class="blockBoxBg"></image>
+	<stack class="imgList">
+		<image src="/common/{{blockSrc1}}.png" class="blockNode block1"
+			   on:click="clickBlock({{blockSrc1}})">
+		</image>
+		<image src="/common/{{blockSrc2}}.png" class="blockNode block2"
+			   on:click="clickBlock({{blockSrc2}})">
+		</image>
+		<image src="/common/{{blockSrc3}}.png" class="blockNode block3"
+			   on:click="clickBlock({{blockSrc3}})">
+		</image>
+		<image src="/common/{{blockSrc4}}.png" class="blockNode block4"
+			   on:click="clickBlock({{blockSrc4}})">
+		</image>
+		<image src="/common/{{blockSrc5}}.png" class="blockNode block5"
+			   on:click="clickBlock({{blockSrc5}})">
+		</image>
+		<image src="/common/{{blockSrc6}}.png" class="blockNode block6"
+			   on:click="clickBlock({{blockSrc6}})">
+		</image>
+		<image src="/common/{{blockSrc7}}.png" class="blockNode block7"
+			   on:click="clickBlock({{blockSrc7}})">
+		</image>
+		<image src="/common/{{blockSrc8}}.png" class="blockNode block8"
+			   on:click="clickBlock({{blockSrc8}})">
+		</image>
+		<image src="/common/{{blockSrc9}}.png" class="blockNode block9"
+			   on:click="clickBlock({{blockSrc9}})">
+		</image>
+		<image src="/common/{{blockSrc10}}.png" class="blockNode block10"
+			   on:click="clickBlock({{blockSrc10}})">
+		</image>
+		<image src="/common/{{blockSrc11}}.png" class="blockNode block11"
+			   on:click="clickBlock({{blockSrc11}})">
+		</image>
+		<image src="/common/{{blockSrc12}}.png" class="blockNode block12"
+			   on:click="clickBlock({{blockSrc12}})">
+		</image>
+		<image src="/common/{{blockSrc13}}.png" class="blockNode block13"
+			   on:click="clickBlock({{blockSrc13}})">
+		</image>
+		<image src="/common/{{blockSrc14}}.png" class="blockNode block14"
+			   on:click="clickBlock({{blockSrc14}})">
+		</image>
+		<image src="/common/{{blockSrc15}}.png" class="blockNode block15"
+			   on:click="clickBlock({{blockSrc15}})">
+		</image>
+		<image src="/common/{{blockSrc16}}.png" class="blockNode block16"
+			   on:click="clickBlock({{blockSrc16}})">
+		</image>
+	</stack>
+	<text class="aim" show="{{!startFlag}}" >Boss Puzzle</text>
+	<image src="/common/timer.png" class="timeBox" show="{{startFlag}}"></image>
+	<text class="timer" show="{{startFlag}}">{{timeNum}}</text>
+	<div class="startBox" show="{{!startFlag}}" ref="startGamePage" on:click="startGame">
+		<image class="startGame" src="/common/lang/{{language}}/start.png" ></image>
+	</div>
+	<div class="recoverPage" on:click="clickNone" show="{{nowRecoverPage}}">
+		<image class="contImg" src="/common/lang/{{language}}/contBg.png"></image>
+		<image class="resume" src="/common/lang/{{language}}/continue.png" on:click="resumeBtn"></image>
+		<image class="newGame" src="/common/lang/{{language}}/replay.png" on:click="newGameBtn"></image>
+	</div>
+</div>

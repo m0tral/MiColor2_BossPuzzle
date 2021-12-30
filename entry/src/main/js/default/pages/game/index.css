@@ -1,0 +1,99 @@
+.container {
+    width: 466px;
+    height: 466px;
+}
+
+.blockBoxBg {
+    width: 328px;
+    height: 328px;
+    margin-left: 69px;
+    margin-top: 68px;
+}
+
+.imgList {
+	width: 312px;
+	height: 312px;
+	margin-top: 78px;
+	margin-left: -320px;
+}
+
+.block1 { top: 0; left: 0; }
+.block2 { top: 0; left: 78px; }
+.block3 { top: 0; left: 156px; }
+.block4 { top: 0; left: 234px; }
+.block5 { top: 78px; left: 0; }
+.block6 { top: 78px; left: 78px; }
+.block7 { top: 78px; left: 156px; }
+.block8 { top: 78px; left: 234px; }
+.block9 { top: 156px; left: 0 }
+.block10 { top: 156px; left: 78px; }
+.block11 { top: 156px; left: 156px; }
+.block12 { top: 156px; left: 234px; }
+.block13 { top: 234px; left: 0 }
+.block14 { top: 234px; left: 78px; }
+.block15 { top: 234px; left: 156px; }
+.block16 { top: 234px; left: 234px; }
+.blockNode { width: 78px; height: 78px; }
+.aim {
+	width: 220px;
+	height: 40px;
+	margin-left: -260px;
+	margin-top: 23px
+}
+.startGame { width: 130px; height: 59px; margin-left: 144px; margin-top: 400px }
+
+.aimEnglish { width: 120px }
+.startBox {
+	width: 466px;
+	height: 466px;
+	background-color: rgba(0,0,0,0);
+	margin-left: -355px;
+	margin-top: 0;
+}
+
+.timeBox {
+	width: 152px;
+	height: 44px;
+	margin-left: -180px;
+	margin-top: 20px;
+}
+
+.timer {
+	width: 165px;
+	height: 45px;
+	margin-left: -102px;
+	margin-top: 24px;
+	font-size: 30px;
+}
+.timer2 {
+	width: 165px;
+	height: 45px;
+	margin-left: 151px;
+	margin-top: 200px;
+	font-size: 30px;
+}
+.recoverPage {
+	width: 466px;
+	height: 466px;
+	margin-top: 0;
+	margin-left: -500px;
+	background-color: rgba(0,0,0,0.8);
+}
+.contImg {
+	width: 333px;
+	height: 242px;
+	margin-left: 68px;
+	margin-top: 107px;
+}
+.resume {
+	width: 130px;
+	height: 59px;
+	margin-left: -300px;
+	margin-top: 260px;
+}
+.newGame {
+	width: 130px;
+	height: 59px;
+	margin-left: 10px;
+	margin-top: 260px;
+}

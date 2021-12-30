@@ -1,0 +1,41 @@
+.container {
+    width: 466px;
+    height: 466px;
+}
+
+.endPage {
+	width: 466px;
+	height: 466px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.gameoverImg {
+	width: 466px;
+	height: 466px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.endTime {
+	width: 165px;
+	height: 45px;
+	margin-top: 175px;
+	margin-left: -178px;
+	font-size: 30px;
+}
+
+.bestTime {
+	width: 165px;
+	height: 45px;
+	margin-left: -168px;
+	margin-top: 242px;
+	font-size: 30px;
+}
+
+.replay {
+	width: 76px;
+	height: 76px;
+	margin-left: -260px;
+	margin-top: 320px;
+}

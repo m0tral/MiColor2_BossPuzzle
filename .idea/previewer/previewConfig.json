@@ -1,0 +1,12 @@
+{
+ "1.0.0": {
+  "LastPreviewDevice": {
+   "C:\\Huawei\\dev\\com.dobest.hrd\\entry\\build\\intermediates\\res\\debug": [
+    "liteWearable"
+   ],
+   "C:\\Huawei\\dev\\com.dobest.hrd\\entry\\build\\intermediates\\res\\release": [
+    "liteWearable"
+   ]
+  }
+ }
+}

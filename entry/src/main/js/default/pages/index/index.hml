@@ -1,0 +1,4 @@
+<div class="container">
+	<image src="/common/logo.png" class="logo"></image>
+	<text class="loading">Loading...</text>
+</div>

@@ -1,0 +1,21 @@
+.container {
+    width: 466px;
+    height: 466px;
+}
+
+.logo {
+    width: 230px;
+    height: 230px;
+	margin-left: 118px;
+    margin-top: 80px;
+}
+
+.loading {
+	width: 165px;
+	height: 60px;
+	margin-left: -195px;
+	margin-top: 330px;
+	font-size: 30px;
+	color: #8D552F;
+	text-align: center;
+}
